@@ -95,6 +95,6 @@ function levelChange() {
 }
 
 function modeChange() {
-    mode == "summer" ? mode = "winter" : mode = "summer"
+    mode = mode === "summer" ? "summer" : "winter";
     updateDisplay();
 }
